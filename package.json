@@ -1,0 +1,20 @@
+{
+  "name": "",
+  "version": "",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "./node_modules/.bin/jest --coverage"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-jest": "^22.4.0",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-env": "^1.6.1",
+    "jest": "22.4.0",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "jest": {
+    "testURL": "http://localhost/"
+  }
+}
